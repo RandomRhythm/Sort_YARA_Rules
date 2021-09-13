@@ -1,0 +1,24 @@
+4d 5a,pe
+7b 5c 72 74,rtf
+4c 00,lnk
+50 4b,zip
+7f 45,elf
+d0 cf,doc
+52 61 72 21 1A 07 00,rar
+30 00 00 00 4C 66 4C 65,evt
+55 aa, mbr
+73 64 62 66,shim
+53 51 4c 69 74 65 20 66 6f 72 6d 61 74 20 33 00,sqlite
+25 50 44 46,pdf
+46 57 53,swf
+46 4C 56,flv
+7F 45 4C 46,elf
+7f 45 4c 46 4,elf
+ce fa ed fe,osx
+be ba fe ca,osx
+ca fe ba be,osx
+fe ed fa ce,osx
+cf fa ed fe,osx
+fe ed fa cf,osx
+4D 45 54 41 2D 49 4E 46 2F 4D 41 4E 49 46 45 53 54 2E 4D 46,jar
+3C 3F 70 68 70,php
