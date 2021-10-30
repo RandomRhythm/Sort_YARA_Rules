@@ -1,9 +1,11 @@
 # Sort Rules
 ### Sort YARA rules by targeted file type. 
 You must get a list of rules from [YARA_Rules_Util](https://github.com/RandomRhythm/YARA_Rules_Util) before you can sort rules:
+
                   `YARA_Util.py -d C:\Path\To\Rules -s -v`
 
 The above command will create all_rules.csv in the script directory. Pass the path to all_rules.csv to Sort_Rules:
+
                   `Sort_Rules.py -i "E:\\YARA_Rules_Util\\all_rules.csv" -o "E:\\YARA_Sort_Rules\\log.txt" -m "E:\\YARA_Rules_Util\\rule_remapping.csv" -l "E:\\YARA_Hash_Values\\yara_Hash_lookups.csv" -a`
 
 Options:
