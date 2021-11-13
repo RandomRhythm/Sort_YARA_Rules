@@ -3,7 +3,7 @@
 
 This script can be used to reorganize/sort rules by the file type the rule was written to target. See [YARA_Rules_Project_Sorted_Ruleset](https://github.com/RandomRhythm/YARA_Rules_Project_Sorted_Ruleset) for an example repository of sorted YARA rules. Sub folders will be created for each identified file type and rule files will have the file type appended in the file name. These modifications make it easy to identify what file type the rule should be used to scan.
 
-#### Prerequisite
+#### Prerequisite:
 
 You must get a list of rules from [YARA_Rules_Util](https://github.com/RandomRhythm/YARA_Rules_Util) before you can sort rules:
 
@@ -32,7 +32,7 @@ You must get a list of rules from [YARA_Rules_Util](https://github.com/RandomRhy
   -o OUTPUTPATH, --output=OUTPUTPATH
                         Output log file path (optional)
 
-#### Example command usage
+#### Example command usage:
                         
 The above command will create all_rules.csv in the script directory. Pass the path to all_rules.csv to Sort_Rules:
 
