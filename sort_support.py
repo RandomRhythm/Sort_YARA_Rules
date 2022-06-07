@@ -55,14 +55,17 @@ def appendVal(strAggregate, strAdd):
     return strAggregate
 
 def GetData(contents, endOfStringChar, matchString):
-    matchStringLen = len(contents)
+    matchStringLen = len(matchString)
     x = contents.find(matchString)
-    if x > 0:
-        y = contents.find(endOfStringChar,x)
-        if y > 0:
-            return contents[x+ len(matchString):y]
+    if x > -1:
+        matchLocation = x+ matchStringLen
+        #remainingText = contents[matchLocation:]
+        y = contents.find(endOfStringChar,matchLocation)
+        if y > -1:
+          return contents[matchLocation:y]
         else:
-            return contents[x:]
+          return contents[matchLocation:]
+    return ''
 
 
 def removeComment(contents):
